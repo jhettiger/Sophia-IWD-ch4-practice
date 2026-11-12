@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact North Star Bakery</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact North Star Bakery</h1>
+            <nav aria-label="Primary" class="header-nav">
+                    <a href="about.html">About North Star Bakery</a>
+                    <a href="products.html">View our products</a>
+                    <a href="contact.html" aria-current="page">Contact us</a>
+                    <a href="index.html">Homepage</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Get in Touch</h2>
+                <p>If you have any questions, comments, or special requests, please don't hesitate to reach out to us. We are here to assist you and ensure you have the best experience with North Star Bakery.</p>
+                <p>You can contact us via phone, email, or by visiting our bakery in person. We look forward to hearing from you!</p>
+                <form id="order-inquiry"action="submit" method="post">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="first & last">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Order Inquiry</legend>
+                    <label for="pickup-date">Pickup Date</label>
+                    <input type="date" id="pickup-date" name="pickup-date" required placeholder="Desired pickup date">
+                    <br>
+                    <label for="allergies">Alergies:</label>
+                    <input type="text" id="allergies" name="allergies" required placeholder="List any allergies, if applicable">
+                    <br>
+                    <label for="details">Items Details:</label>
+                    <input type="text" id="details" name="details" required placeholder="Provide details of the items you wish to order">
+                    <br>
+                    <label for="additional-requests">Additional Comments:</label>
+                    <textarea id="additional-requests" name="additional-requests" placeholder="Any additional comments or requests"></textarea>
+                    <br>
+                    <button type="submit" class="button-link">Submit inquiry</button>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <h2>Location</h2>
+                <p>North Star Bakery is located in the heart of the community, making it easy for you to visit us in person. Our address is:</p>
+                <p>123 Main Street<br>Hometown, USA 12345</p>
+            </section>
+            <section>
+                <h2>Business Hours</h2>
+                <p>We are open to serve you during the following hours:</p>
+                <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 4:00 PM<br>Sunday: Closed</p>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+</html>
